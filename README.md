@@ -24,7 +24,7 @@ Si on réfère au "terminal" à n'importe quel endroit dans les exercices du cou
 
 Tous les devoirs de la session seront corrigés automatiquement très vaste partie. Il est donc **_extrêmement_** important que vous respectiez les formats attendus. Lisez bien les consignes.
 
-# `names.csv`
+# `names.txt`
 
 Ce fichier contiendra les noms de l'équipe. L'exemple fournis ici contient le nom des deux démos du cours, Charlie Gauthier et Samuel Yvon.
 
