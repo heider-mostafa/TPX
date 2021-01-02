@@ -1,6 +1,25 @@
 # TPX
 
-Ce repo sert de modèle pour tous les autres devoirs de la session. Il vise à vous familiariser avec la structure attendue.
+Ce repo sert de modèle pour tous les autres devoirs de la session. Il vise à vous familiariser avec la structure attendue. Il introduit aussi des concepts importants de contrôle de versions et de Unix.
+
+# Git
+
+Git sera utilisé tout au long du cours. Git peut sembler un peu intimidant, mais pour nos fins, c'est un logiciel assez simple. Voici les commandes que vous aurez besoin:
+
+- Pour commencer, vous pouvez cloner ce repo avec `git clone <url du repo>
+- Si vous ajoutez un fichier au repo, vous pouvez l'ajouter avec `git add <path relatif du fichier>`
+- Vous pouvez inclure vos changements à votre historique git en faisant `git commit -a -m <un message explicatif>`. Vous devez faire ceci après avoir changé un fichier, ou en avoir ajouté un nouveau avec `git add`. Vous n'êtes pas obligés de le faire après chaque changement, cependant! Vous pouvez le voir comme la fonction "sauvegarde de git", donc appeler cette commande lorsque vous voulez sauvegarder.
+- Et finalement, la magie de git: `git push`. Ceci permet de "pousser" vos changements vers le nuage. Il est donc impossible de perdre votre progrès, et il est extrêmement facile de coordonner vos changements avec vos coéquipiers.
+
+Comme git recevra des changements de vous *et* et votre partenaire, il se peut qu'il y ait des conflits entre les versions des fichiers. Vous pouvez utiliser git comme une bonne vieille clé USB, et ne jamais travailler en même temps (pour éviter les conflits), mais il serait très important pour votre croissance en tant que programmeur d'apprendre à gérer ces conflits avec git. Il existe des tonnes de guides sur le web.
+
+# Unix
+
+Unix est utilisé pour tout ce cours. Pourquoi pas Windows? Windows n'offre aucune option open-source, ce qui est déjà très peu désirable pour le milieu de recherche qu'est l'université. Windows utilise aussi des librairies C très différentes de celles de Linux et de MacOS. Windows est aussi payant, alors que Linux est gratuit est facile d'accès pour tout le monde. Si votre machine roule seulement Windows, il est facile de la partitionner et d'installer linux sur une des partitions, ou même d'installer linux sur une clé USB. De plus, Linux est facile à installer dans une machine virtuelle ou même nativement avec le Windows Subsystem for Linux (WSL2).
+
+La programmation bas niveau est très capricieuse. Il est important que tous les systèmes soient le plus similaire possibles entre la machine de l'étudiant et celle des correcteurs. Vous **_devez_** vous assurez que votre code roule bien sur les ordinateurs Linux du DIRO, que vous ayez codé votre code sur Windows, MacOS, ou même Linux.
+
+Si on réfère au "terminal" à n'importe quel endroit dans les exercises du cours, on réfère au terminal de Linux.
 
 # Correction Automatique
 
