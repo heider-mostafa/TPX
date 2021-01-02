@@ -48,4 +48,7 @@ Ce fichier défini le projet sur lequel vous travaillez. Ceci permet à un IDE c
 
 Ce fichier est le point d'entrée de votre projet. Dans la vaste majorité des cas, ce sera le seul fichier C utilisé dans le projet. **_N'ajoutez pas de fichier C ou .h! Nous ne compilerons que ceux déjà présents dans le repo que vous recevez comme devoir!_**
 
+# CLion
+
+Vous pouvez installer cet IDE dès maintenant et essayer de rouler le fichier `code/main.c`!
 
