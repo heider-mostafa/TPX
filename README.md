@@ -16,10 +16,9 @@ Comme git recevra des changements de vous *et* et votre partenaire, il se peut q
 # Unix
 
 Unix est utilisé pour tout ce cours. Pourquoi pas Windows? Windows n'offre aucune option open-source, ce qui est déjà très peu désirable pour le milieu de recherche qu'est l'université. Windows utilise aussi des librairies C très différentes de celles de Linux et de MacOS. Windows est aussi payant, alors que Linux est gratuit est facile d'accès pour tout le monde. Si votre machine roule seulement Windows, il est facile de la partitionner et d'installer linux sur une des partitions, ou même d'installer linux sur une clé USB. De plus, Linux est facile à installer dans une machine virtuelle ou même nativement avec le Windows Subsystem for Linux (WSL2).
+La programmation bas niveau est très capricieuse. Il est important que tous les systèmes soient le plus similaire possible entre la machine de l'étudiant et celle des correcteurs. Vous devez vous assurez que votre code roule bien sur les ordinateurs Linux du DIRO, que vous ayez codé votre code sur Windows, MacOS, ou même Linux.
+Si on réfère au "terminal" à n'importe quel endroit dans les exercices du cours, on réfère au terminal de Linux.
 
-La programmation bas niveau est très capricieuse. Il est important que tous les systèmes soient le plus similaire possibles entre la machine de l'étudiant et celle des correcteurs. Vous **_devez_** vous assurez que votre code roule bien sur les ordinateurs Linux du DIRO, que vous ayez codé votre code sur Windows, MacOS, ou même Linux.
-
-Si on réfère au "terminal" à n'importe quel endroit dans les exercises du cours, on réfère au terminal de Linux.
 
 # Correction Automatique
 
