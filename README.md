@@ -16,6 +16,8 @@ N'incluez rien d'autre que vos noms. Pas de commentaires, pas de email, de notes
 
 Vous pouvez vérifier que votre fichier est du bon format en roulant `name_validator.py`.
 
+Pour ce faire, simplement écrire `python3 name_validator.py` dans votre terminal.
+
 # `code`
 
 Le dossier `code` contiendra tout votre code C.
