@@ -10,7 +10,7 @@ Tous les devoirs de la session seront corrigés automatique en très vaste parti
 
 Ce fichier contiendra les noms de l'équipe. L'exemple fournis ici contient le nom des deux démos du cours, Charlie Gauthier et Samuel Yvon.
 
-N'incluez rien d'autre que vos noms. Pas de commentaires, pas de email, de notes, etc. Chaque prénom-nom doit aller sur une ligne chaque, comme dans l'exemple.
+N'incluez rien d'autre que vos noms. Pas de commentaires, pas de email, de notes, etc. Chaque prénom-nom doit aller sur une ligne chaque, comme dans l'exemple. **_Écrivez le même nom qui paraît sur Studium._**
 
 # `name_validator.py`
 
