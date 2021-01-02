@@ -4,7 +4,7 @@ Ce repo sert de modèle pour tous les autres devoirs de la session. Il vise à v
 
 # Git
 
-Git sera utilisé tout au long du cours. Git peut sembler un peu intimidant, mais pour nos fins, c'est un logiciel assez simple. Voici les commandes que vous aurez besoin:
+Git sera utilisé tout au long du cours. Git peut sembler un peu intimidant, mais pour nos fins, c'est un logiciel assez simple. Voici les commandes dont vous aurez besoin:
 
 - Pour commencer, vous pouvez cloner ce repo avec `git clone <url du repo>
 - Si vous ajoutez un fichier au repo, vous pouvez l'ajouter avec `git add <path relatif du fichier>`
