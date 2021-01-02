@@ -50,5 +50,13 @@ Ce fichier est le point d'entrée de votre projet. Dans la vaste majorité des c
 
 # CLion
 
-Vous pouvez installer cet IDE dès maintenant et essayer de rouler le fichier `code/main.c`!
+Vous pouvez installer cet IDE dès maintenant et essayer de rouler le fichier `code/main.c`! Cet IDE a une intégration avec Valgrind, un programme qui permet de tester votre code pour y trouver des fuites mémoires et des accès mémoires illégaux.
 
+# Barèmes de correction standards
+
+Voici quelques barèmes de correction qui seront standard pour tous les devoirs.
+
+- Tout usage de matériel (code ou texte) emprunté à quelqu’un d’autre (trouvé sur le web, etc.)doit être dûment mentionné, sans quoi cela sera considéré comme du plagiat. Si pour une question votre solution est directement copiée, même s'il y a attribution de la source, cette question se verra attribuer la note de zéro. Vous pourrez cependant l’utiliser dans les sections suivantes sans pénalité.
+- Vous serez pénalisés pour chaque warning lors de la compilation à raison de 1% par warning,sauf pour les warning reliés à l’assignation à NULL, à la comparaison avec NULL, et aux override des fonctions de librairie. Ces 1% peuvent être cumulés jusqu'à 5%.
+- Si une fuite mémoire mémoire est identifiée, vous perdrez 15%. Vous ne perdrez pas plus de points pour les fuites si vous en avez une ou trente.
+- Les accès mémoire illégaux identifiés par Valgrind entraîneront jusqu’à 5% de perte, à raison de 1% par accès. La répétition d’un même accès sera comptée comme 1% de plus quand même.
