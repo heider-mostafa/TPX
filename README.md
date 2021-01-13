@@ -6,9 +6,9 @@ Ce repo sert de modèle pour tous les autres devoirs de la session. Il vise à v
 
 Git sera utilisé tout au long du cours. Git peut sembler un peu intimidant, mais pour nos fins, c'est un logiciel assez simple. Voici les commandes dont vous aurez besoin:
 
-- Pour commencer, vous pouvez cloner ce repo avec `git clone <url du repo>
+- Pour commencer, vous pouvez cloner ce repo avec `git clone <url du repo>`
 - Si vous ajoutez un fichier au repo, vous pouvez l'ajouter avec `git add <path relatif du fichier>`
-- Vous pouvez inclure vos changements à votre historique git en faisant `git commit -a -m <un message explicatif>`. Vous devez faire ceci après avoir changé un fichier, ou en avoir ajouté un nouveau avec `git add`. Vous n'êtes pas obligés de le faire après chaque changement, cependant! Vous pouvez le voir comme la fonction "sauvegarde de git", donc appeler cette commande lorsque vous voulez sauvegarder.
+- Vous pouvez inclure vos changements à votre historique git en faisant `git commit -a -m "<un message explicatif>"`. Vous devez faire ceci après avoir changé un fichier, ou en avoir ajouté un nouveau avec `git add`. Vous n'êtes pas obligés de le faire après chaque changement, cependant! Vous pouvez le voir comme la fonction "sauvegarde de git", donc appeler cette commande lorsque vous voulez sauvegarder.
 - Et finalement, la magie de git: `git push`. Ceci permet de "pousser" vos changements vers le nuage. Il est donc impossible de perdre votre progrès, et il est extrêmement facile de coordonner vos changements avec vos coéquipiers.
 
 Comme git recevra des changements de vous *et* et votre partenaire, il se peut qu'il y ait des conflits entre les versions des fichiers. Vous pouvez utiliser git comme une bonne vieille clé USB, et ne jamais travailler en même temps (pour éviter les conflits), mais il serait très important pour votre croissance en tant que programmeur d'apprendre à gérer ces conflits avec git. Il existe des tonnes de guides sur le web.
