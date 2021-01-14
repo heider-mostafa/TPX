@@ -60,7 +60,7 @@ Ce dossier contient des fichiers des test. Il se peut qu'il soit vide.
 
 # CLion
 
-Vous pouvez installer cet IDE dès maintenant et essayer de rouler le fichier `code/main.c`! Cet IDE a une intégration avec Valgrind, un programme qui permet de tester votre code pour y trouver des fuites mémoires et des accès mémoires illégaux.
+Vous pouvez installer cet IDE dès maintenant et essayer de rouler le fichier `src/main.c`! Cet IDE a une intégration avec Valgrind, un programme qui permet de tester votre code pour y trouver des fuites mémoires et des accès mémoires illégaux.
 
 # Barèmes de correction standards
 
