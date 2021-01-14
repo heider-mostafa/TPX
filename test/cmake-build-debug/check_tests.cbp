@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="check_tests"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check_tests">
+				<Option output="/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/check_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 check_tests"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check_tests/fast">
+				<Option output="/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/check_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 check_tests/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/charlie/Desktop/real-tp0-template/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/charlie/Desktop/real-tp0-template/src/main.c">
+			<Option target="check_tests"/>
+		</Unit>
+		<Unit filename="/home/charlie/Desktop/real-tp0-template/src/main.h">
+			<Option target="check_tests"/>
+		</Unit>
+		<Unit filename="/home/charlie/Desktop/real-tp0-template/test/call_by_string.c">
+			<Option target="check_tests"/>
+		</Unit>
+		<Unit filename="/home/charlie/Desktop/real-tp0-template/test/call_by_string.h">
+			<Option target="check_tests"/>
+		</Unit>
+		<Unit filename="/home/charlie/Desktop/real-tp0-template/test/check_utils.h">
+			<Option target="check_tests"/>
+		</Unit>
+		<Unit filename="/home/charlie/Desktop/real-tp0-template/test/checks.c">
+			<Option target="check_tests"/>
+		</Unit>
+		<Unit filename="/home/charlie/Desktop/real-tp0-template/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
