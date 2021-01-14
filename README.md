@@ -26,9 +26,11 @@ Tous les devoirs de la session seront corrigés automatiquement très vaste part
 
 # `names.txt`
 
-Ce fichier contiendra les noms de l'équipe. L'exemple fournis ici contient le nom des deux démos du cours, Charlie Gauthier et Samuel Yvon.
+Ce fichier contiendra les noms et matricules de l'équipe. L'exemple fournis ici contient le nom des deux démos du cours, Charlie Gauthier et Samuel Yvon.
 
-N'incluez rien d'autre que vos noms. Pas de commentaires, pas de email, de notes, etc. Chaque prénom-nom doit aller sur une ligne chaque, comme dans l'exemple. **_Écrivez le même nom qui paraît sur Studium._**
+N'incluez rien d'autre que vos noms. Pas de commentaires, pas de email, de notes, etc. Chaque prénom-nom-matricule doit aller sur une ligne chaque, comme dans l'exemple. **_Écrivez le même nom qui paraît sur Studium._**
+
+Important! On veut votre *matricule*, pas votre code de connection sur synchro qui comment pas un 'p'.
 
 # `name_validator.py`
 

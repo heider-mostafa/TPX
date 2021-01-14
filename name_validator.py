@@ -1,3 +1,5 @@
 with open("./names.txt") as f:
     for i,n in enumerate(f.readlines()):
-        print(f"Nom de l'equipier no{i}:", n[:-1])
+        temp = n[:-1]
+        temp = temp.split(" ")
+        print(f"TEAMMEMBER:{{{' '.join(temp[:-1])}}}\nMATRICULE:{{{temp[-1]}}}")
