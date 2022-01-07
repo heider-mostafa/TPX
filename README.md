@@ -60,6 +60,8 @@ Ce dossier contient des fichiers des test. Il se peut qu'il soit vide.
 
 **_NE MODIFIEZ PAS CE DOSSIER_**
 
+**Il n'y a AUCUNE garantie que votre fichier `test` soit complet. Autrement dit, il est FORT PROBABLE que nous ajoutions des tests après la date de remise! Codez en conséquence.**
+
 # Github Classroom
 
 Github classroom nous permet de corriger vos TPs automatiquement. Pour savoir votre note, il suffit de cliquer sur le petit checkmark vert ✅ dans la barre d'information de commits de votre repository. 
