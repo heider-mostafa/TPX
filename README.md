@@ -30,7 +30,9 @@ Ce fichier contiendra les noms et matricules de l'équipe. L'exemple fournis ici
 
 N'incluez rien d'autre que vos noms. Pas de commentaires, pas de email, de notes, etc. Chaque prénom-nom-matricule doit aller sur une ligne chaque, comme dans l'exemple. **_Écrivez le même nom qui paraît sur Studium._**
 
-Important! On veut votre *matricule*, pas votre code de connection sur synchro qui comment pas un 'p'.
+Important! On veut votre *matricule*, pas votre code de connection sur synchro qui commence par un 'p'.
+
+Si vous avez des caractères non-ascii dans votre nom, il se peut que l'ouput du name-validator soit un peu brisé. Ce n'est pas grave: c'est votre matricule qui est importante.
 
 # `name_validator.py`
 
@@ -58,9 +60,41 @@ Ce dossier contient des fichiers des test. Il se peut qu'il soit vide.
 
 **_NE MODIFIEZ PAS CE DOSSIER_**
 
+# Github Classroom
+
+Github classroom nous permet de corriger vos TPs automatiquement. Pour savoir votre note, il suffit de cliquer sur le petit checkmark vert ✅ dans la barre d'information de commits de votre repository. ![image](https://user-images.githubusercontent.com/31974070/148586322-3b37e39c-d05c-4189-b354-057488001583.png)
+
+Ensuite, cliquez sur `Run education/autograding`
+![image](https://user-images.githubusercontent.com/31974070/148586435-362af704-81f1-4cd2-92ff-1ef736ab15ee.png)
+
+A la toute fin de ce bloc de test, il y aura votre note dans une balise `GRADE:{<note>}`
+![image](https://user-images.githubusercontent.com/31974070/148586511-69009f6b-a224-4ae1-8012-42522b058d5b.png)
+
+Ignorez le joli
+"""
+All tests passed
+
+✨🌟💖💎🦄💎💖🌟✨🌟💖💎🦄💎💖🌟✨
+"""
+
 # CLion
 
-Vous pouvez installer cet IDE dès maintenant et essayer de rouler le fichier `src/main.c`! Cet IDE a une intégration avec Valgrind, un programme qui permet de tester votre code pour y trouver des fuites mémoires et des accès mémoires illégaux.
+Vous pouvez installer cet IDE dès maintenant et essayer de rouler le fichier `src/main.c`! Cet IDE a une intégration avec Valgrind, un programme qui permet de tester votre code pour y trouver des fuites mémoires et des accès mémoires illégaux. C'est gratuit pour les étudiants [https://www.jetbrains.com/community/education/#students](https://www.jetbrains.com/community/education/#students).
+
+# Remise
+
+Ce travail est à faire **en équipe**. Vous pouvez le faire seul, mais la charge de travail ne sera pas amoindrie. 
+
+Le code est à remettre sur Github Classroom (autrement dit,
+la dernière version à la date de la remise sera utilisée).
+
+Chaque jour de retard est -15%, mais après le deuxième jour la remise ne
+sera pas acceptée.
+
+Indiquez clairement votre/vos noms dans le fichier `names.txt` tel qu'indiqué dans le repo du [TPX](https://github.com/IFT2245/TPX).
+
+Le programme doit être exécutable sur les ordinateurs du DIRO. Assurez-vous que tout fonctionne correctement sur les ordinateurs du
+DIRO.
 
 # Barèmes de correction standards
 
