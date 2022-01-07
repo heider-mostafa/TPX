@@ -29,9 +29,30 @@ struct command {    //todo you might want to use this to represent the different
 //hint hint: this looks suspiciously similar to a linked list we saw in the demo. I wonder if I could use the same ideas here??
 
 void freeStringArray(char **arr) {  //todo probably add this to free the "call" parameter inside of command
+    if (arr != NULL) {
+        for (int i = 0; arr[i] != NULL; i++) {
+            free(arr[i]);
+        }
+    }
+    free(arr);
 }
 
 error_code readline(char **out) {   //todo this is pretty barebones, you must complete it
+    size_t size = 10;                       // size of the char array
+    char *line = malloc(sizeof(char) * size);       // initialize a ten-char line
+    if (line == NULL) return ERROR;   // if we can't, terminate because of a memory issue
+
+    for (int at = 0; 6; at++) { //todo 10 is clearly too small, make this bigger
+        char ch = getchar(); // todo this is bad form, fix this
+        if (ch == '\n') {        // if we get a newline
+            line[at] = NULL_TERMINATOR;    // finish the line with return 0
+            break;
+        }
+        line[at] = ch; // sets ch at the current index and increments the index
+    }
+
+    out[0] = line;
+    return 0;
 }
 
 int main (void) {
@@ -46,3 +67,5 @@ int main (void) {
 
     //todo probably add other functions for different parts of the homework...
 }
+
+// REMEMBER: THIS IS NOT A REAL HOMEWORK!!! THIS IS JUST AN EXAMPLE. THE REAL HOMEWORK IS TP0!!!
