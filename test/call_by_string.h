@@ -1,1 +1,0 @@
-void call_by_string(char *string);

@@ -1,13 +1,10 @@
 clean:
-	sudo rm -rf libelf tests_build
+	sudo rm -rf tests_build valgrind.log
 
-installcheckelf:
-	python3 installcheckelf.py lcheck_pic || sudo apt-get install check
-	python3 installcheckelf.py lelf || (git clone https://github.com/WolfgangSt/libelf.git -q && cd libelf && sudo ./configure && make -s && sudo make install -s)
-
-install: installcheckelf
+install:
 	python3 prep_tests.py
 	mkdir tests_build || true
+	pip3 install pyyaml
 	temp=$$(cd tests_build && cmake .. && make)
 	python3 clean_tests.py
 
@@ -16,10 +13,6 @@ printnames:
 
 singletest: printnames clean install
 	./tests_build/check_tests $(FOO)
-
-update:
-	wget $(URL)
-	cp $(PTH) ./checks.c
 
 alltests: printnames clean install
 	python3 runall.py
