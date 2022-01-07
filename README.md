@@ -62,12 +62,16 @@ Ce dossier contient des fichiers des test. Il se peut qu'il soit vide.
 
 # Github Classroom
 
-Github classroom nous permet de corriger vos TPs automatiquement. Pour savoir votre note, il suffit de cliquer sur le petit checkmark vert ✅ dans la barre d'information de commits de votre repository. ![image](https://user-images.githubusercontent.com/31974070/148586322-3b37e39c-d05c-4189-b354-057488001583.png)
+Github classroom nous permet de corriger vos TPs automatiquement. Pour savoir votre note, il suffit de cliquer sur le petit checkmark vert ✅ dans la barre d'information de commits de votre repository. 
+
+![image](https://user-images.githubusercontent.com/31974070/148586322-3b37e39c-d05c-4189-b354-057488001583.png)
 
 Ensuite, cliquez sur `Run education/autograding`
+
 ![image](https://user-images.githubusercontent.com/31974070/148586435-362af704-81f1-4cd2-92ff-1ef736ab15ee.png)
 
 A la toute fin de ce bloc de test, il y aura votre note dans une balise `GRADE:{<note>}`
+
 ![image](https://user-images.githubusercontent.com/31974070/148586511-69009f6b-a224-4ae1-8012-42522b058d5b.png)
 
 Ignorez le joli
