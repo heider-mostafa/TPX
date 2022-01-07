@@ -52,7 +52,7 @@ Ce fichier défini le projet sur lequel vous travaillez. Ceci permet à un IDE c
 
 Ce fichier est le point d'entrée de votre projet. Dans la vaste majorité des cas, ce sera le seul fichier C utilisé dans le projet. **_N'ajoutez pas de fichier C ou .h! Nous ne compilerons que ceux déjà présents dans le repo que vous recevez comme devoir!_**
 
-Pour certains devoirs, nous allons devoir arracher votre fonction `main`. Donc soyez averties que TOUT le code qui se trouve entre deux balises `// ༽つ۞﹏۞༼つ` sera enlevé.
+Pour certains devoirs, nous allons devoir arracher votre fonction `main`. Donc soyez averties que TOUT le code qui se trouve entre deux balises `// ༽つ۞﹏۞༼つ` sera enlevé. (Le nom de ce bel homme `// ༽つ۞﹏۞༼つ**` est "Jeff", en passant.) N'enlevez **jamais** Jeff de vos travaux, sinon l'autograder va briser pour votre TP.
 
 # `test`
 
@@ -100,7 +100,21 @@ DIRO.
 
 Voici quelques barèmes de correction qui seront standard pour tous les devoirs.
 
-- Tout usage de matériel (code ou texte) emprunté à quelqu’un d’autre (trouvé sur le web, etc.)doit être dûment mentionné, sans quoi cela sera considéré comme du plagiat. Si pour une question votre solution est directement copiée, même s'il y a attribution de la source, cette question se verra attribuer la note de zéro. Vous pourrez cependant l’utiliser dans les sections suivantes sans pénalité.
+- Tout usage de matériel (code ou texte) emprunté à quelqu’un d’autre
+    (trouvé sur le web, etc.) doit être dûment mentionné, sans quoi cela
+    sera considéré comme du plagiat. Si pour une question votre solution
+    est directement copiée, même si il y a attribution de la source,
+    cette question se verra attribuée la note de zéro. Vous pourrez
+    cependant l’utiliser dans les sections suivantes sans pénalité.
+- Votre devoir sera corrigé automatiquement en très grande partie. Si
+    vous déviez de ce qui est demandé en output, les points que vous
+    perdrez seront perdus pour de bon. Si vous n’êtes pas certains d’un
+    caractère demandé, demandez, et nous répondrons
+    de façon à ce que chaque étudiant puisse voir la réponse.
+- La méthode de développement recommandée est d’utiliser CLion et son
+    intégration avec Valgrind. Si vous voulez utiliser d’autres
+    techniques, vous pouvez le faire, mais nous ne vous aiderons si vous
+    rencontrez des problèmes avec ces techniques.
 - Vous serez pénalisés pour chaque warning lors de la compilation à raison de 1% par warning,sauf pour les warning reliés à l’assignation à NULL, à la comparaison avec NULL, et aux override des fonctions de librairie. Ces 1% peuvent être cumulés jusqu'à 5%.
 - Si une fuite mémoire mémoire est identifiée, vous perdrez 15%. Vous ne perdrez pas plus de points pour les fuites si vous en avez une ou trente.
 - Les accès mémoire illégaux identifiés par Valgrind entraîneront jusqu’à 5% de perte, à raison de 1% par accès. La répétition d’un même accès sera comptée comme 1% de plus quand même.
