@@ -35,10 +35,10 @@ def run(input):
     except Exception as e:
         program_output = e.output
 
-    with open("./valgrind.log", "r") as f:
-        valgrind_output = f.read()
+    #with open("./valgrind.log", "r") as f:
+    #    valgrind_output = f.read()
 
-    return program_output, valgrind_output
+    return program_output, ""#valgrind_output
 
 # tests
 perfect_score = {key:0 for (key, _) in dico.items()}
