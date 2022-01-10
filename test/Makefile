@@ -6,6 +6,7 @@ install:
 	mkdir tests_build || true
 	pip3 install pyyaml
 	temp=$$(cd tests_build && cmake .. && make)
+	sudo apt-get install valgrind
 	python3 clean_tests.py
 
 printnames:
