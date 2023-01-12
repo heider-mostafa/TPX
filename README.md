@@ -26,7 +26,7 @@ Tous les devoirs de la session seront corrigés automatiquement très vaste part
 
 # `names.txt`
 
-Ce fichier contiendra les noms et matricules de l'équipe. L'exemple fournis ici contient le nom des deux démos du cours, Charlie Gauthier et Samuel Yvon.
+Ce fichier contiendra les noms et matricules de l'équipe. L'exemple fournis ici contient le nom du professeur, Liam Paull, avec un matricule 12345.
 
 N'incluez rien d'autre que vos noms. Pas de commentaires, pas de email, de notes, etc. Chaque prénom-nom-matricule doit aller sur une ligne chaque, comme dans l'exemple. **_Écrivez le même nom qui paraît sur Studium._**
 

@@ -16,7 +16,7 @@ typedef int error_code;
 #define NULL_TERMINATOR '\0'
 
 int main (void) {
-    fprintf("Bonjour!");
+  fprintf(stdout, "Bonjour!");
 }
 
 // REMEMBER: THIS IS NOT A REAL HOMEWORK!!! THIS IS JUST AN EXAMPLE. THE REAL HOMEWORK IS TP0!!!
